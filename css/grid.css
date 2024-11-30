@@ -22,6 +22,65 @@ body, p, h1, h2, h3, h4, h5 {
     padding-left: 15px;
     padding-right: 15px;
  }
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+    gap: 3px;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+}
+
+.image-top-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url('../images/chalet.svg'); /* Replace with your image path */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.image-bottom-right {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-image: url('../images/villa.svg');
+}
+
+.content:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background: red;
+    color: white;
+}
+
+.content:nth-child(3) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background: red;
+    color: white;
+}
  
  .col-span-1	{grid-column: span 1 / span 1;}
  .col-span-2	{grid-column: span 2 / span 2;}
@@ -34,3 +93,40 @@ body, p, h1, h2, h3, h4, h5 {
  .col-start-2	{grid-column-start: 2;}
  .col-start-3	{grid-column-start: 3;}
  .col-start-4	{grid-column-start: 4;}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    max-height: 425px;
+    max-width: 412px;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.image-top-left2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url('../images/chalet.svg'); /* Replace with your image path */
+}
+
+.image-top-right2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: url('../images/villa.svg');
+}
+
+.image-bottom-left2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    background-image: url('../images/spaherro.svg');
+}
+
+.image-bottom-right2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    background-image: url('../images/roomss.svg');
+}
+ 
