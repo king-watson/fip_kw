@@ -1,5 +1,4 @@
-
- #mobile-outline {
+#mobile-outline {
     outline: 20px solid #333;
     max-width: 412px;
     margin: 20px auto 20px auto;
@@ -53,7 +52,7 @@ header {
 }
 
  #hero {
-    background: url(../images/spa-herro-img.svg) no-repeat;
+    background: url(../images/about-hero.svg) no-repeat;
     height: 250px;
  }
  
@@ -66,7 +65,6 @@ header {
     justify-content: center;
     align-items: center;
     font-style: italic;
-       /* add */
     cursor: pointer;
  }
  
@@ -123,6 +121,13 @@ header {
     max-width: 412px;
     margin: 0px auto 20px auto;
     margin-left: 14px;
+ }
+
+ .line-separator9 {
+    border-top: solid 3px white;
+    max-width: 412px;
+    margin: 0px auto 20px auto;
+    margin-bottom: 15px;
  }
  
 #contact-hero-form button {
@@ -199,7 +204,7 @@ header {
  }
  
  #full-span-picseperator {
-    background: url(../images/couple-spa.svg) no-repeat;
+    background: url(../images/gym.svg) no-repeat;
     height: 250px;
  }
 
@@ -419,4 +424,3 @@ label img {
 .hidden-checkbox:checked ~ .confirmation-message {
     display: block;
 }
-
