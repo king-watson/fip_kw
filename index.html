@@ -13,7 +13,7 @@
     <body>
 <div class="mobile-outline">
         <h1 class="hidden">Welcome to The Couples Resort</h1>
-        <!-- Main Nav -->         
+               
             <header class="grid-con" id="main-header">
                 <nav id="main-nav" class="col-span-full">
                     <h2 class="hidden">Main Navigation</h2>
@@ -27,9 +27,9 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#">Rooms</a></li>
-                            <li><a href="#">Packages</a></li>
+                            <li><a class ="selected" href="about.html">About</a></li>
                             <li><a class = "selected" href="dining.html">Dining</a></li>
-                            <li><a class= "selected" href="spa.html">Spa</a></li>
+                            <li><a class = "selected" href="spa.html">Spa</a></li>
                             <li><a href="#">Reservations</a></li>
                         </ul>
                     </div>
@@ -38,7 +38,7 @@
                     <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
                 </div>
             </header>        
-        <!-- Main Hero -->
+        
         <section id="hero" class="grid-con">
             <h2 class="hidden">Book a stay with us</h2>                       
             <div id="book-now-hero" class="book-now col-start-3 col-span-2">
@@ -83,16 +83,14 @@
         <section id="contact" class="grid-con">
             <h2 class="hidden">Contact Us</h2>
         
-            <!-- Contact Info 1 -->
             <div class="contact-info">
                 <img src="images/phone-icon.svg" alt="Phone Icon" class="icon">
                 <p>
                     Toll Free - +1 866-202-1179 <br>
                     Email - info@couplesresort.ca
                 </p>
-            </div>
-        
-            <!-- Contact Info 2 -->
+            </div>  
+          
             <div class="contact-info">
                 <img src="images/location-icon.svg" alt="Location Icon" class="icon">
                 <p>
@@ -140,12 +138,43 @@
                 <p class="see-more">Click images to see more...</p>
             </div>
 
+
             <div class="grid-container2">
-                <div class="image image-top-left2"></div>
-                <div class="image image-top-right2"></div>
-                <div class="image image-bottom-left2"></div>
-                <div class="image image-bottom-right2"></div>
+                <label>
+                    <input type="checkbox" class="toggle">
+                    <div class="image image-top-left2">
+                        <span class="text">Masters: 1000 sq feet
+                            Private Out Door Hot Tubs
+                            Steam Generator for the double shower which has 4 shower heads and benches
+                            Bidet
+                            Microwave</span>
+                    </div>
+                </label>
+                <label>
+                    <input type="checkbox" class="toggle">
+                    <div class="image image-top-right2">
+                        <span class="text">Chalets: 700 sq feet
+                            Private Out Door Hot Tubs
+                            private cabin</span>
+                    </div>
+                </label>
+                <label>
+                    <input type="checkbox" class="toggle">
+                    <div class="image image-bottom-left2">
+                        <span class="text">Exotics: 2 at 1000 sq feet 4 at 600 sq ft
+                            Private Out Door Hot Tubs
+                            Microwave</span>
+                    </div>
+                </label>
+                <label>
+                    <input type="checkbox" class="toggle">
+                    <div class="image image-bottom-right2">
+                        <span class="text">Juniors: 600 sq feet
+                            Private Out Door Hot Tubs</span>
+                    </div>
+                </label>
             </div>
+            
 
 
             <div class="grid-con">
@@ -192,7 +221,14 @@
             <input type="text" id="Name" name="Name" placeholder="First & Last Name">
             <input type="text" id="Email/Phone" name="Email/Phone" placeholder="Email Address or Phone Number">
             <input type="text" id="Question/Comment" name="Question/Comment" placeholder="Question/Comment">
-            <button type="button" id="send-button">Send</button>
+            <form class="contact-form">
+                <input type="checkbox" id="submit-checkbox" class="hidden-checkbox">
+                <label for="submit-checkbox" class="submit-button">Send</label>
+                <div class="confirmation-message">
+                    Your message has been sent
+                </div>
+            </form>
+
         </div>
         </div>
             
