@@ -143,6 +143,30 @@ header {
     text-align: left;
     margin-top: 30px;
  }
+
+ #hero-summary2 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary2 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
+
+ #hero-summary3 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary3 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
  
  .fas {
     font-size: 42px;
@@ -177,6 +201,12 @@ header {
     align-self: end;
     margin-top: 35px;
  }
+
+ #why-choose-us-hand-box2 {
+    align-self: end;
+    margin-top: 35px;
+ }
+
   
  #about-hero-con {
     background: url(../images/about-us-hero.jpg) no-repeat;

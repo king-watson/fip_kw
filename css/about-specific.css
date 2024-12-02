@@ -148,6 +148,77 @@ header {
     text-align: left;
     margin-top: 30px;
  }
+
+ #hero-summary2 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary2 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
+
+ #hero-summary3 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary3 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
+ #hero-summary4 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary4 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
+
+ #hero-summary5 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary5 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
+
+ #hero-summary6 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary6 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
+
+ #hero-summary7 p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ #hero-summary7 ul {
+    text-align: left;
+    margin-top: 30px;
+ }
  
  .fas {
     font-size: 42px;
@@ -179,6 +250,11 @@ header {
  }
  
  #why-choose-us-hand-box {
+    align-self: end;
+    margin-top: 35px;
+ }
+
+ #why-choose-us-hand-box2 {
     align-self: end;
     margin-top: 35px;
  }
